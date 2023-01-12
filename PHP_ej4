@@ -6,7 +6,7 @@
 	</head>
 
 	<body>
-
+	
         	<?php
 			
 			//Tabla de multiplicar del 9
@@ -19,6 +19,6 @@
 			}
 		
         	?>
-
+	
 	</body>
 </html>
