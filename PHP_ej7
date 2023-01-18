@@ -14,7 +14,6 @@
 		
 		<?php
 		
-			//Conocer el mayor de dos enteros mediante el uso de un "if"
 			if(isset($_POST['nota'])) {
 				$nota = $_POST['nota'];
 				
