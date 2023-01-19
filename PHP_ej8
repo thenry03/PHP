@@ -35,9 +35,17 @@
 			//Mostrar número de elementos en los arrays
 			echo "<br/> El número de elementos en el array de motos es " . count($motos) . "<br/><br/>";
 			
-			//Petición al usuario
-			echo "<form method = 'post' action = ''><label for = 'busqueda'>Busca en el array de motos: </label><input type = 'sumbit' name = 'busqueda' id = 'busqueda'><input type = 'submit' value = 'Buscar'></form>";
+		?>
+		
+		<!-- Petición al usuario -->
+		<form method = 'post' action = ''>
+			<label for = 'busqueda'>Busca en el array de motos: </label>
+			<input type = 'sumbit' name = 'busqueda' id = 'busqueda'/>
+			<input type = 'submit' value = 'Buscar'/>
+		</form>
 			
+		<?php
+		
 			//Búsqueda en el array de motos
 			//if($_SERVER['REQUEST_METHOD'] === 'POST' && null !== $_POST['busqueda']) {
 			if(isset($_POST['busqueda']) && !empty($_POST['busqueda'])) {
