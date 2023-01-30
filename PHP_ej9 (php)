@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> php_iaw9.php </title>
+	</head>
+	
+	<body>
+		
+		<?php
+			
+			$nombre = $_POST['nombre'];
+			echo "$nombre";
+			
+			echo "<br/>";
+			
+			$email = $_POST['email'];
+			echo "$email";
+			
+			echo "<br/>";
+			
+			$pagina_web = $_POST['pagina_web'];
+			echo "$pagina_web";
+			
+		?>
+		
+	<body/>
+	
+</html>
